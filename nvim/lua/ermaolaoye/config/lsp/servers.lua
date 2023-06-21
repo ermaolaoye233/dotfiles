@@ -29,6 +29,7 @@ local servers = {
   },
   clangd = {},
   pyright = {},
+  rust_analyzer = {},
 }
 
 return servers

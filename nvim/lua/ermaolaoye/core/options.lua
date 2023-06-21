@@ -7,8 +7,8 @@ local options = {
   number = true,
 
   -- tabs & indentation
-  tabstop = 2,
-  shiftwidth = 2,
+  tabstop = 4,
+  shiftwidth = 4,
   expandtab = true,
   smartindent = true,
 
@@ -45,7 +45,7 @@ local options = {
 
   -- display
   showmode = false,
-  showtabline = 2,
+  showtabline = 0,
   wrap = true, -- wrap long line
 
   -- misc
