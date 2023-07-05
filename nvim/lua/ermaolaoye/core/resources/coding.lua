@@ -100,18 +100,6 @@ return {
   },
 
   {
-    'echasnovski/mini.indentscope',
-    version = false,
-    config = function()
-      require('mini.indentscope').setup()
-    end,
-    -- turn off indentscope when using toggleterm
-    disable = function()
-      return vim.g.toggleterm_terminal_mappings == 1
-    end,
-  },
-
-  {
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     event = { "BufReadPost", "BufNewFile" },

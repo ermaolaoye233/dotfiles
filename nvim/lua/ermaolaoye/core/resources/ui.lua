@@ -2,6 +2,7 @@ local Util = require("ermaolaoye.util")
 return {
   -- windows.nvim with animation
   -- for autofocus on the current activate pane
+  -- the  
   {
     "anuvyklack/windows.nvim",
     event = "WinNew",

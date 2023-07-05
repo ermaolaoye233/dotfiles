@@ -60,6 +60,9 @@ local options = {
 -- set default language to en_US
 vim.api.nvim_exec ('language en_US', true)
 
+-- remove the ~ symbol in blank line
+vim.api.nvim_set_option('fillchars', 'eob: ')
+
 for k, v in pairs(options) do
   vim.opt[k] = v
 end
